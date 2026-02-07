@@ -1,17 +1,16 @@
 export function ContactSection() {
   return (
-    <section id="contact" className="px-6 py-20 md:px-12 md:py-28">
+    <section id="contact" className="border-t border-border px-6 py-20 md:px-12 md:py-28">
       <div className="mx-auto flex max-w-6xl flex-col items-center">
-        <div className="mb-12 h-px w-24 bg-border" />
-        <p className="mb-8 text-xs tracking-[0.3em] text-muted">CONNECT</p>
+        <p className="mb-8 text-xs tracking-[0.3em] text-gold">CONNECT</p>
         <a
-          href="mailto:ken.iiboshi@example.com"
+          href="mailto:i2bskn@cyfr.dev"
           className="text-xl text-white transition-colors hover:text-gold md:text-3xl"
         >
-          ken.iiboshi@example.com
+          i2bskn@cyfr.dev
         </a>
         <a
-          href="https://github.com"
+          href="https://github.com/i2bskn"
           target="_blank"
           rel="noopener noreferrer"
           className="mt-6 text-muted transition-colors hover:text-white"

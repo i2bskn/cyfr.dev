@@ -18,18 +18,18 @@ const services = [
 
 export function ServicesSection() {
   return (
-    <section id="services" className="border-t border-border px-6 py-20 md:px-12 md:py-28">
-      <div className="mx-auto grid max-w-6xl gap-12 md:grid-cols-[200px_1fr] md:gap-20">
+    <section id="services" className="border-t border-border px-6 py-20 md:px-12 md:py-24">
+      <div className="mx-auto grid max-w-6xl gap-10 md:grid-cols-[200px_1fr] md:gap-20">
         <div>
           <p className="text-xs tracking-[0.3em] text-gold">WHAT I CAN DO</p>
         </div>
-        <div className="flex flex-col gap-14">
+        <div className="flex flex-col gap-12">
           {services.map((service) => (
             <div key={service.title}>
               <h3 className="mb-3 text-xl font-semibold text-white md:text-2xl">
                 {service.title}
               </h3>
-              <p className="max-w-xl leading-relaxed text-muted">
+              <p className="max-w-xl text-sm leading-relaxed text-muted">
                 {service.description}
               </p>
             </div>
