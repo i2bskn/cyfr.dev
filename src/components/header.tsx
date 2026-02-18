@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useState } from "react";
 
 const navItems = [
@@ -14,8 +15,8 @@ export function Header() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-black/80 backdrop-blur-sm">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-5 md:px-12">
-        <a href="#" className="text-sm tracking-[0.3em] text-white">
-          c y f r
+        <a href="/" className="flex items-center">
+          <Image src="/images/logo.svg" alt="Cyfr logo" width={120} height={24} />
         </a>
 
         {/* Desktop nav */}
