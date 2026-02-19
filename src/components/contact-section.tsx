@@ -2,10 +2,10 @@ export function ContactSection() {
   return (
     <section id="contact" className="border-t border-border px-6 py-20 md:px-12 md:py-28">
       <div className="mx-auto flex max-w-6xl flex-col items-center">
-        <p className="mb-8 text-xs tracking-[0.3em] text-gold">CONNECT</p>
+        <p className="mb-8 text-xs tracking-[0.3em] text-brand">CONNECT</p>
         <a
           href="mailto:i2bskn@cyfr.dev"
-          className="text-xl text-white transition-colors hover:text-gold md:text-3xl"
+          className="text-xl text-white transition-colors hover:text-brand md:text-3xl"
         >
           i2bskn@cyfr.dev
         </a>

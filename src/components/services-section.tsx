@@ -21,7 +21,7 @@ export function ServicesSection() {
     <section id="services" className="border-t border-border px-6 py-20 md:px-12 md:py-24">
       <div className="mx-auto grid max-w-6xl gap-10 md:grid-cols-[200px_1fr] md:gap-20">
         <div>
-          <p className="text-xs tracking-[0.3em] text-gold">WHAT I CAN DO</p>
+          <p className="text-xs tracking-[0.3em] text-brand">WHAT I CAN DO</p>
         </div>
         <div className="flex flex-col gap-12">
           {services.map((service) => (

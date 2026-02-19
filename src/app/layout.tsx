@@ -27,7 +27,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.variable} ${cormorant.variable} font-sans antialiased`}
+        className={`${inter.variable} ${cormorant.variable} font-sans font-medium antialiased`}
       >
         {children}
       </body>

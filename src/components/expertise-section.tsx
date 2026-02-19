@@ -9,7 +9,7 @@ export function ExpertiseSection() {
     <section id="expertise" className="border-t border-border px-6 py-20 md:px-12 md:py-24">
       <div className="mx-auto grid max-w-6xl gap-10 md:grid-cols-[200px_1fr] md:gap-20">
         <div>
-          <p className="text-xs tracking-[0.3em] text-gold">
+          <p className="text-xs tracking-[0.3em] text-brand">
             TECHNICAL EXPERTISE
           </p>
         </div>

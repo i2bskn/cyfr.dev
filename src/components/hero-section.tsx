@@ -39,7 +39,7 @@ export function HeroSection() {
 
         {/* Main content */}
         <div className="relative z-10 py-8 md:py-16">
-          <p className="mb-4 text-xs tracking-[0.3em] text-gold">
+          <p className="mb-4 text-xs tracking-[0.3em] text-brand">
             SOFTWARE ENGINEER
           </p>
           <h1 className="text-6xl leading-[0.95] font-bold tracking-tight text-white sm:text-7xl md:text-8xl lg:text-9xl">
@@ -48,7 +48,7 @@ export function HeroSection() {
             IIBOSHI
           </h1>
 
-          <div className="mt-12 border-l-2 border-gold/60 pl-6 md:mt-16">
+          <div className="mt-12 border-l-2 border-brand/60 pl-6 md:mt-16">
             <p className="font-serif text-xl text-muted italic md:text-2xl">
               &ldquo;Full stack, small team, fast delivery.&rdquo;
             </p>
